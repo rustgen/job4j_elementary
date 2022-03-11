@@ -1,0 +1,8 @@
+package ru.job4j;
+
+public class studentInfo {
+    public static void main(String[] args) {
+        System.out.println("Rustem");
+        System.out.println("01.01.1991");
+    }
+}
