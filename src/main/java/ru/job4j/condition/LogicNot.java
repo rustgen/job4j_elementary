@@ -33,9 +33,11 @@ public class LogicNot {
         System.out.println(number2);
         boolean number3 = LogicNot.notEven(3);
         System.out.println(number3);
-        boolean number4 = LogicNot.notEvenAndPositive(4);
+        boolean number4 = LogicNot.notPositive(-5);
         System.out.println(number4);
-        boolean number5 = LogicNot.evenOrNotPositive(5);
+        boolean number5 = LogicNot.notEvenAndPositive(4);
         System.out.println(number5);
+        boolean number6 = LogicNot.evenOrNotPositive(5);
+        System.out.println(number6);
     }
 }
