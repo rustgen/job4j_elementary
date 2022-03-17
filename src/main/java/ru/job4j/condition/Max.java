@@ -8,7 +8,7 @@ public class Max {
     }
 
     public static void main(String[] args) {
-        int num = Max.max(2,11);
+        int num = Max.max(2, 11);
         System.out.println(num);
     }
 }
