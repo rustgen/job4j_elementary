@@ -48,12 +48,12 @@ public class MatrixCheckTest {
     @Test
     public void whenHasNotMonoVertical() {
         char[][] input = {
-                {' ', ' ', 'X', ' ', 'X'},
-                {' ', 'X', 'X', ' ', 'X'},
-                {' ', ' ', 'X', 'X', ' '},
-                {' ', ' ', 'X', ' ', 'X'},
+                {' ', ' ', 'X', ' '},
+                {' ', 'X', 'X', ' '},
+                {' ', ' ', 'X', 'X'},
+                {' ', ' ', 'X', ' '},
         };
-        int column = 4;
+        int column = 1;
         boolean result = MatrixCheck.monoVertical(input, column);
         Assert.assertFalse(result);
     }
