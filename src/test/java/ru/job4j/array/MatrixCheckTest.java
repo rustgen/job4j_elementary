@@ -20,20 +20,6 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenHasNotAndNotMonoHorizontal() {
-        char[][] input = {
-                {' '},
-                {' ', ' '},
-                {' ', ' ', ' '},
-                {'X', 'X', ' ', 'X'},
-                {' ', ' ', ' ', ' ', ' '},
-        };
-        int row = 3;
-        boolean result = MatrixCheck.monoHorizontal(input, row);
-        Assert.assertFalse(result);
-    }
-
-    @Test
     public void whenHasNotMonoHorizontal() {
         char[][] input = {
                 {' ', ' ', ' ', ' ', ' '},
