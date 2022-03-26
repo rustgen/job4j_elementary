@@ -18,8 +18,7 @@ public class Defragment {
     }
 
     public static void main(String[] args) {
-        String[] input = {null, null, null, "I", "wanna", null,"be", null, null, "compressed"};
-        //String[] input = {null, "I"};
+        String[] input = {null, "I"};
         //String[] input = {"I", null, "wanna", null, "be"};
         //String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
         //String[] input = {null, "I", "wanna", null, "be", null, "compressed"};
