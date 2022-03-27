@@ -24,3 +24,4 @@ public class Machine {
         System.out.println(Arrays.toString(change(money, price)));
     }
 }
+
