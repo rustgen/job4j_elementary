@@ -39,4 +39,22 @@ public class PointTest {
         double expected = 2.0;
         assertThat(expected, is(a.distance(b)));
     }
+
+    @Test
+    public void whenThis234That258Then3DDistanceEqual0() {
+        Point a = new Point(2, 3, 4);
+        Point b = new Point(2, 5, 8);
+        double expected = 4.47;
+        double res = a.distance3d(b);
+        assertEquals(expected, res, 0.01);
+    }
+
+    @Test
+    public void whenThis234That258Then3DDistanceEqual412() {
+        Point a = new Point(2, 3, 5);
+        Point b = new Point(4, 5, 2);
+        double expected = 4.12;
+        double res = a.distance3d(b);
+        assertEquals(expected, res, 0.01);
+    }
 }
