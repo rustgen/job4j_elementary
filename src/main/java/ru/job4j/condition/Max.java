@@ -14,10 +14,10 @@ public class Max {
         );
     }
 
-    public static int max(int left1, int left2, int right1, int right2) {
+    public static int max(int one, int two, int three, int four) {
         return max(
-                max(left1, left2),
-                max(right1, right2)
+                max(one, two),
+                max(three, four)
         );
     }
 
